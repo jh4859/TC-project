@@ -1,0 +1,86 @@
+.category_table {
+  width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 제목 */
+.table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.category_table table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.category_table table img {
+  height: 80px;       /* 원하는 높이 */
+  width: auto;        /* 비율 유지 */
+  object-fit: cover;  /* 테두리에 맞춰 자르기 */
+}
+
+.category_table th,
+.category_table td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.category_table th {
+  background: #f9f9f9;
+  font-weight: 600;
+}
+
+
+/* 버튼 스타일 */
+button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+button.edit {
+  background: #4CAF50;
+  color: white;
+}
+
+button.delete {
+  background: #f44336;
+  color: white;
+}
+
+button.edit:hover {
+  background: #45a049;
+}
+
+button.delete:hover {
+  background: #d32f2f;
+}
+
+/* 등록 버튼 */
+.btn_box {
+  margin-top: 12px;
+  text-align: right;
+}
+
+button.register {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: #4CAF50;
+  font-size: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.register:hover {
+  background: #45a049;
+}

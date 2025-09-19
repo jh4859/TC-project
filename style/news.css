@@ -1,0 +1,30 @@
+.table-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.news_table {
+  width: 1000px;       /* 고정 너비 */
+  margin: 40px auto;      /* 가운데 정렬 */
+  border-collapse: collapse;
+}
+
+.news_table th, .news_table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.news_table th {
+  background: #f9f9f9;
+  font-weight: bold;
+}
+
+.news_table td a {
+  color: #000;
+  text-decoration: none;
+}
+
+.news_table td a:hover {
+  text-decoration: underline;
+}

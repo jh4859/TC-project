@@ -1,0 +1,78 @@
+.table_create {
+  width: 1000px;
+  margin: 30px auto;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.table_create h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.table_create table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table_create th,
+.table_create td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: left;
+}
+
+.table_create th {
+  background: #f9f9f9;
+  width: 120px;
+}
+
+.table_create input,
+.table_create textarea,
+.table_create select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box; /* padding 포함해서 width 100% 적용 */
+}
+
+.table_create textarea {
+  height: 120px;
+  resize: none;
+}
+
+.btn_box {
+  margin-top: 15px;
+  text-align: right;
+}
+
+button {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+button.register {
+  background: #4caf50;
+  color: white;
+  margin-right: 5px;
+}
+
+button.register:hover {
+  background: #43a047;
+}
+
+button.cancel {
+  background: #e0e0e0;
+}
+
+button.cancel:hover {
+  background: #c9c9c9;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>TC 관리자 페이지</title>
+  <link rel="stylesheet" href="../style/admin.css">
+  <link rel="stylesheet" href="../style/admincategory_create.css">
+</head>
+<body>
+  <header>
+      <!-- 로고 -->
+      <div class="logo">
+        <a href="admin.html"><img src="../images/admin_logo.png" alt="로고"></a>
+      </div>
+
+      <!-- 탭 메뉴 -->
+      <nav class="tab">
+          <a href="admin_tip.html">분리배출 꿀팁</a>
+          <a href="admin_news.html">환경뉴스</a>
+          <a href="admin_category.html">카테고리</a>
+      </nav>
+  </header>
+  <hr />
+  <main>
+    <h2>카테고리 관리</h2>
+    <div class="section">
+      <form>
+        <label>새 카테고리 이름</label>
+        <input type="text" placeholder="예: 음식물 쓰레기" />
+
+        <label>카테고리 이미지</label>
+        <input type="file" />
+
+        <button>카테고리 추가</button>
+      </form>
+    </div>
+
+    <h2>아이템 등록</h2>
+    <div class="section">
+      <form>
+        <label>카테고리 선택</label>
+        <select>
+          <option>음식물 쓰레기</option>
+          <option>플라스틱</option>
+          <option>종이류</option>
+        </select>
+
+        <label>아이템 이름</label>
+        <input type="text" placeholder="예: 사과껍질" />
+
+        <label>아이템 이미지</label>
+        <input type="file" />
+
+        <label>분류</label>
+        <select>
+          <option>음식물 쓰레기</option>
+          <option>일반 쓰레기</option>
+          <option>재활용</option>
+          <option>기타</option>
+        </select>
+
+        <label>버리는 방법</label>
+        <textarea placeholder="예: 물기를 제거한 뒤 음식물 쓰레기 봉투에 넣어 버립니다."></textarea>
+
+        <label>알면 더 도움되는 팁</label>
+        <textarea placeholder="예: 종량제 봉투 안에 신문지를 깔면 냄새를 줄일 수 있어요."></textarea>
+
+        <button>아이템 추가</button>
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    <p>© 2025 TC. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.content {
+    padding: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.result {
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap; /* 화면이 좁아지면 자동 줄바꿈 */
+}
+
+.item {
+    text-align: center;
+    width: 150px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
